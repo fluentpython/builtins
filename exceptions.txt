@@ -1,0 +1,152 @@
+BaseException
+ ├── SystemExit
+ ├── KeyboardInterrupt
+ ├── GeneratorExit
+ └── Exception
+      ├── StopIteration
+      ├── StopAsyncIteration
+      ├── ArithmeticError
+      |    ├── FloatingPointError
+      |    ├── OverflowError
+      |    └── ZeroDivisionError
+      ├── AssertionError
+      ├── AttributeError
+      ├── BufferError
+      ├── EOFError
+      ├── ImportError
+      |    └── ModuleNotFoundError
+      ├── LookupError
+      |    ├── IndexError
+      |    └── KeyError
+      ├── MemoryError
+      ├── NameError
+      |    └── UnboundLocalError
+      ├── OSError
+      |    ├── BlockingIOError
+      |    ├── ChildProcessError
+      |    ├── ConnectionError
+      |    |    ├── BrokenPipeError
+      |    |    ├── ConnectionAbortedError
+      |    |    ├── ConnectionRefusedError
+      |    |    └── ConnectionResetError
+      |    ├── FileExistsError
+      |    ├── FileNotFoundError
+      |    ├── InterruptedError
+      |    ├── IsADirectoryError
+      |    ├── NotADirectoryError
+      |    ├── PermissionError
+      |    ├── ProcessLookupError
+      |    └── TimeoutError
+      ├── ReferenceError
+      ├── RuntimeError
+      |    ├── NotImplementedError
+      |    └── RecursionError
+      ├── SyntaxError
+      |    └── IndentationError
+      |         └── TabError
+      ├── SystemError
+      ├── TypeError
+      ├── ValueError
+      |    └── UnicodeError
+      |         ├── UnicodeDecodeError
+      |         ├── UnicodeEncodeError
+      |         └── UnicodeTranslateError
+      └── Warning
+           ├── DeprecationWarning
+           ├── PendingDeprecationWarning
+           ├── RuntimeWarning
+           ├── SyntaxWarning
+           ├── UserWarning
+           ├── FutureWarning
+           ├── ImportWarning
+           ├── UnicodeWarning
+           ├── BytesWarning
+           └── ResourceWarning
+           
+ BaseException
+ ├── SystemExit
+ ├── KeyboardInterrupt
+ ├── GeneratorExit
+ └── Exception 59↳
+
+
+BaseException
+ ┆
+ └── Exception
+      ├── StopIteration
+      ├── StopAsyncIteration
+      ├── ArithmeticError 3↳
+      ├── AssertionError
+      ├── AttributeError
+      ├── BufferError
+      ├── EOFError
+      ├── ImportError 1↳
+      ├── LookupError 2↳
+      ├── MemoryError
+      ├── NameError 1↳
+      ├── OSError 15↳
+      ├── ReferenceError
+      ├── RuntimeError 2↳
+      ├── SyntaxError 2↳
+      ├── SystemError
+      ├── TypeError
+      ├── ValueError 4↳
+      └── Warning 10↳
+
+
+BaseException
+ ┆
+ └── Exception
+             ┆
+      ├── LookupError
+      |    ├── IndexError
+      |    └── KeyError
+             ┆
+
+
+BaseException
+ ┆
+ └── Exception
+             ┆
+      ├── OSError
+      |    ├── BlockingIOError
+      |    ├── ChildProcessError
+      |    ├── ConnectionError 4↳
+      |    ├── FileExistsError
+      |    ├── FileNotFoundError
+      |    ├── InterruptedError
+      |    ├── IsADirectoryError
+      |    ├── NotADirectoryError
+      |    ├── PermissionError
+      |    ├── ProcessLookupError
+      |    └── TimeoutError
+             ┆
+
+
+BaseException
+ ┆
+ └── Exception
+             ┆
+      ├── ValueError
+      |    └── UnicodeError
+      |         ├── UnicodeDecodeError
+      |         ├── UnicodeEncodeError
+      |         └── UnicodeTranslateError
+             ┆
+
+
+BaseException
+ ┆
+ └── Exception
+             ┆
+      └── Warning
+           ├── DeprecationWarning
+           ├── PendingDeprecationWarning
+           ├── RuntimeWarning
+           ├── SyntaxWarning
+           ├── UserWarning
+           ├── FutureWarning
+           ├── ImportWarning
+           ├── UnicodeWarning
+           ├── BytesWarning
+           └── ResourceWarning
