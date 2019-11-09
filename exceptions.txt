@@ -97,17 +97,17 @@ BaseException
 BaseException
  ┆
  └── Exception
-             ┆
+      ┆
       ├── LookupError
       |    ├── IndexError
       |    └── KeyError
-             ┆
+      ┆
 
 
 BaseException
  ┆
  └── Exception
-             ┆
+      ┆
       ├── OSError
       |    ├── BlockingIOError
       |    ├── ChildProcessError
@@ -120,25 +120,25 @@ BaseException
       |    ├── PermissionError
       |    ├── ProcessLookupError
       |    └── TimeoutError
-             ┆
+      ┆
 
 
 BaseException
  ┆
  └── Exception
-             ┆
+      ┆
       ├── ValueError
       |    └── UnicodeError
       |         ├── UnicodeDecodeError
       |         ├── UnicodeEncodeError
       |         └── UnicodeTranslateError
-             ┆
+      ┆
 
 
 BaseException
  ┆
  └── Exception
-             ┆
+      ┆
       └── Warning
            ├── DeprecationWarning
            ├── PendingDeprecationWarning
